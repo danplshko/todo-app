@@ -13,11 +13,12 @@ edit_button = sg.Button("Edit")
 complete_button = sg.Button("Complete")
 exit_button = sg.Button("Exit")
 
+
 window = sg.Window('My To-DO App',
                    layout=[[clock],
-                           [label],
-                           [input_box, add_button],
-                           [list_box, edit_button, complete_button],
+                           [label, add_button, edit_button,complete_button],
+                           [input_box],
+                           [list_box],
                            [exit_button]],
                    font=('Helvetica', 20))
 
