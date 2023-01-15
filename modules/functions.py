@@ -1,3 +1,5 @@
+# from PIL import Image
+
 FILEPATH = "todos.txt"
 
 
@@ -16,6 +18,14 @@ def write_todos(todos_arg, filepath=FILEPATH):
         file.writelines(todos_arg)
 
 
-if __name__ == "__main__":
-    print("Hello")
-    print(get_todos())
+#  Image resizer
+# def image_resizer(image_path):
+#     image = Image.open(image_path)
+#     image = image.resize((35, 35))
+#     image.save("../icons/exit.png")
+
+
+# if __name__ == "__main__":
+#     print("Hello")
+#     print(get_todos())
+#
